@@ -8,7 +8,7 @@ const config = {
   providers: [
     Resend({
       apiKey: process.env.RESEND_KEY,
-      from: "noreply@resend.ericomand.com",
+      from: "noreply@resend.feature-ship.com",
       name: "Email",
     }),
     Google({
